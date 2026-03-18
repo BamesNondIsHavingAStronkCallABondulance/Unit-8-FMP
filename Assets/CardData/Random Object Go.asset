@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1199f0dc36655247bf236b580a403c0, type: 3}
   m_Name: Random Object Go
   m_EditorClassIdentifier: Assembly-CSharp::HarryGame.CardIndex
-  cardName: 
-  damage: 
-  cardType: 
+  cardName: Random Object Go
+  damage: 8
+  block: 0
+  cardType: 00000000
+  cardSprite: {fileID: 4315214628464698562, guid: 2264a7cc2b532c548b8db34cc1a80c85, type: 3}
+  cardDescriptions:
+  - Deal 1 to 10 damage to an enemy

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
- 
+using Unity.Android.Gradle;
+
 namespace HarryGame
 {
     [CreateAssetMenu(fileName = "New Card", menuName = "Card")]
@@ -10,7 +11,16 @@ namespace HarryGame
 
         public string damage;
 
+        public string block;
+
         public List<CardType> cardType;
+
+        public Sprite cardSprite;
+
+        public string[] cardDescriptions =
+        {
+
+        };
     }
 
     public enum CardType
@@ -19,6 +29,8 @@ namespace HarryGame
         Skill,
         Power,
     }
+
+
 
 
 }
